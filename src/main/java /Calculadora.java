@@ -1,3 +1,5 @@
+package com.ejemplo;
+
 public class Calculadora {
     public int suma(int x, int y) {
         return x + y;
@@ -8,6 +10,6 @@ public class Calculadora {
     }
 
     public int multiplica(int x, int y) {
-        return x + y; 
+        return x + y; // error intencional
     }
 }
